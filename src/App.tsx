@@ -1,25 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import "./App.css";
+import AuthContextProvider from "./contexts/AuthContext";
+import { ThemeProvider } from "@material-ui/core";
+import theme from "./theme";
+import { BrowserRouter, Switch } from "react-router-dom";
+import PrivateRoute from "./routeHandling/PrivateRoute";
+import PublicRoute from "./routeHandling/PublicRoute";
+import { PRIVATE_ROUTE, HOME_ROUTE } from "./constants/routesNomenclature";
+import { Home } from "./pages/Home";
+import { Dashboard } from "./pages/Dashboard";
 
 function App() {
+  useEffect(() => {
+    document.title = process.env.REACT_APP_TITLE || "";
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthContextProvider>
+      <ThemeProvider theme={theme}>
+        <BrowserRouter>
+          <Switch>
+            <PublicRoute restricted={false} path={HOME_ROUTE} exact>
+              <Home />
+            </PublicRoute>
+
+            <PrivateRoute path={PRIVATE_ROUTE} exact>
+              <Dashboard />
+            </PrivateRoute>
+            {/* <PublicRoute
+              restricted={true}
+              component={SignIn}
+              path="/signin"
+              exact
+            /> */}
+          </Switch>
+        </BrowserRouter>
+      </ThemeProvider>
+    </AuthContextProvider>
   );
 }
 
