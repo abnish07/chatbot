@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1,
+        "mode": "online",
+        "studentImage": "./src/assets/boy.jpeg",
+        "studentName": "Anuj",
+        "className": "9th",
+        "date": "17 Feb 2021",
+        "time": "8:15 AM",
+        "title": "Three way to travel disco"
+    },
+    {
+        "id": 2,
+        "mode": "offline",
+        "studentImage": "./src/assets/boy.jpeg",
+        "studentName": "Ram",
+        "className": "10th",
+        "date": "17 Feb 2021",
+        "time": "8:15 AM",
+        "title": "Dolor sit amet"
+    },
+    {
+        "id": 3,
+        "mode": "online",
+        "studentImage": "./src/assets/girl.jpg",
+        "studentName": "Nikki Ahuja",
+        "className": "7th",
+        "date": "17 Feb 2021",
+        "time": "8:15 AM",
+        "title": "New LOren Ipsum dolor sit amet"
+    },
+    {
+        "id": 4,
+        "mode": "online",
+        "studentImage": "./src/assets/girl.jpg",
+        "studentName": "Prema Kala",
+        "className": "10th",
+        "date": "17 Feb 2021",
+        "time": "8:15 AM",
+        "title": "New LOren Ipsum dolor sit amet"
+    },
+    {
+        "id": 5,
+        "mode": "offline",
+        "studentImage": "./src/assets/girl.jpg",
+        "studentName": "Swati mahiwal",
+        "className": "9th",
+        "date": "17 Feb 2021",
+        "time": "8:15 AM",
+        "title": "New LOren Ipsum dolor sit amet"
+    },
+    {
+        "id": 6,
+        "mode": "online",
+        "studentImage": "./src/assets/girl.jpg",
+        "studentName": "Anjana Sharma",
+        "className": "8th",
+        "date": "17 Feb 2021",
+        "time": "8:15 AM",
+        "title": "New LOren Ipsum dolor sit amet"
+    },
+    {
+        "id": 7,
+        "mode": "offline",
+        "studentImage": "./src/assets/boy.jpeg",
+        "studentName": "Kundan Choudhary",
+        "className": "9th",
+        "date": "17 Feb 2021",
+        "time": "8:15 AM",
+        "title": "New LOren Ipsum dolor sit amet"
+    },
+    {
+        "id": 8,
+        "mode": "online",
+        "studentImage": "./src/assets/boy.jpeg",
+        "studentName": "Rahul Samrat",
+        "className": "9th",
+        "date": "13 Feb 2021",
+        "time": "8:33 AM",
+        "title": "New LOren Ipsum dolor sit amet"
+    },
+    {
+        "id": 9,
+        "mode": "online",
+        "studentImage": "./src/assets/girl.jpeg",
+        "studentName": "Priya Kumari",
+        "className": "7th",
+        "date": "17 Feb 2021",
+        "time": "12:15 PM",
+        "title": "New LOren Ipsum dolor sit amet"
+    },
+    {
+        "id": 10,
+        "mode": "offline",
+        "studentImage": "./src/assets/boy.jpeg",
+        "studentName": "Shafiq Ahmed",
+        "className": "10th",
+        "date": "12 Feb 2021",
+        "time": "9:20 AM",
+        "title": "New LOren Ipsum dolor sit amet"
+    },
+    {
+        "id": 11,
+        "mode": "offline",
+        "studentImage": "./src/assets/girl.jpeg",
+        "studentName": "Rashmi Anand",
+        "className": "10th",
+        "date": "12 Feb 2021",
+        "time": "9:20 AM",
+        "title": "New LOren Ipsum dolor sit amet"
+    },
+    {
+        "id": 12,
+        "mode": "offline",
+        "studentImage": "./src/assets/boy.jpeg",
+        "studentName": "Roushan Singh",
+        "className": "10th",
+        "date": "12 Feb 2021",
+        "time": "9:20 AM",
+        "title": "New LOren Ipsum dolor sit amet"
+    },
+    {
+        "id": 13,
+        "mode": "offline",
+        "studentImage": "./src/assets/boy.jpeg",
+        "studentName": "Rakesh Mishra",
+        "className": "10th",
+        "date": "12 Feb 2021",
+        "time": "9:20 AM",
+        "title": "New LOren Ipsum dolor sit amet"
+    },
+    {
+        "id": 14,
+        "mode": "offline",
+        "studentImage": "./src/assets/girl.jpeg",
+        "studentName": "Aditi Sinha",
+        "className": "10th",
+        "date": "12 Feb 2021",
+        "time": "9:20 AM",
+        "title": "New LOren Ipsum dolor sit amet"
+    },
+    {
+        "id": 15,
+        "mode": "offline",
+        "studentImage": "./src/assets/boy.jpeg",
+        "studentName": "Dheeraj Pandit",
+        "className": "10th",
+        "date": "12 Feb 2021",
+        "time": "9:20 AM",
+        "title": "New LOren Ipsum dolor sit amet"
+    }
+
+
+]
