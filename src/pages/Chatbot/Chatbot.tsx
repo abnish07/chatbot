@@ -95,8 +95,8 @@ export function Chatbot( ){
         <>
        
         <div className={classes.root}>
-            <img src={MenuButton} className={classes.menuButton} /> 
-        <img src={Logo} className={ classes.logo} />
+            <img src={MenuButton} className={classes.menuButton} alt="menubar" /> 
+        <img src={Logo} className={ classes.logo} alt="logo" />
         <Typography variant="caption" className={classes.welcomeContent} >
         <p>Welcome Suresh M. </p>
         <p>Here are the students assign to you</p>

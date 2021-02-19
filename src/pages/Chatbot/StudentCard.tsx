@@ -110,6 +110,7 @@ export function StudentCard(props: Mode ) {
                 <img
                   src={chatContent.studentImage}
                   className={classes.studentImage}
+                  alt="studentImage"
                 />
               </Grid>
               <div>
@@ -134,7 +135,7 @@ export function StudentCard(props: Mode ) {
                 <Typography className={classes.dateTime}>
                   {chatContent.time}<br></br>{chatContent.date}
                 </Typography>
-                <img src={Dots} className={ props.mode === "online"? classes.dotsStyle : classes.moreOptionIcon} />
+                <img src={Dots} className={ props.mode === "online"? classes.dotsStyle : classes.moreOptionIcon} alt="moreoption" />
               </Grid>
             
               
