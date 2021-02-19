@@ -5,7 +5,6 @@ import MenuButton from '../../assets/combined-shape@2x.png';
 import Logo from '../../assets/Geneologo.png';
 import { Theme, createStyles, makeStyles, useTheme } from '@material-ui/core/styles';
 import { Card, CardContent, Grid, Typography, Box } from '@material-ui/core'
-import data from '../../data.json';
 import { StudentCard } from './StudentCard';
 import { StudentsData } from "../../tempData/StudentsData";
 

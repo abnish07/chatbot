@@ -15,13 +15,6 @@ function App() {
         <BrowserRouter>
           <Switch>
               <Home />
-         
-            {/* <PublicRoute
-              restricted={true}
-              component={SignIn}
-              path="/signin"
-              exact
-            /> */}
           </Switch>
         </BrowserRouter>
       </ThemeProvider>
